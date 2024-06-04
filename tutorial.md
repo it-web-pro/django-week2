@@ -426,3 +426,5 @@ What's new?
 >>> Question.objects.last()
 <Question: What is up?>
 ```
+
+เราจะมาสร้าง view กันต่อ ตามขั้นตอนในไฟล์ `tutorial-view.md`
