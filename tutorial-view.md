@@ -152,9 +152,13 @@ def detail(request, question_id):
 
 เราใช้ template tag `url` โดยกำหนดว่าให้ render path ของ path name="detail"
 
-ลองย้อนกลับไปดูในไฟล์ `/polls/urls.py` จะเห็นว่าเรามีการตั้งชื่อของ path เอาไว้
+ลองย้อนกลับไปดูในไฟล์ `/polls/urls.py` จะเห็นว่าเรามีการตั้งชื่อของ path เอาไว้จึงสามารถใช้อ้างอิงถึงในไฟล์ template ได้
 
 ```python
 # the 'name' value as called by the {% url %} template tag
 path("<int:question_id>/", views.detail, name="detail"),
 ```
+
+### การให้คะแนน
+- ทำตามไฟล์ tutorial.md ครบถ้วน (1 คะแนน)
+- ทำตามไฟล์ tutorial-view.md ครบถ้วน (1 คะแนน)
