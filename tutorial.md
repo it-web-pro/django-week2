@@ -319,8 +319,8 @@ Running migrations:
 ```sh
 > python manage.py shell
 
-# ทำการ import models Question
->>> from polls.models import Question
+# ทำการ import models Question, Choice
+>>> from polls.models import Question, Choice
 
 # ทำการ SELECT ข้อมูลในตาราง question (SELECT * FROM question)
 >>> Question.objects.all()
