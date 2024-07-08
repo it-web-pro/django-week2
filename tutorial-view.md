@@ -93,6 +93,16 @@ def index(request):
     </body>
 </html>
 ```
+แก้ไขไฟล์ `mysite/settings.py` เพิ่ม code ดังนี้
+
+```python
+import os
+SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
+
+TEMPLATE_DIRS = (
+    os.path.join(SETTINGS_PATH, 'templates'),
+)
+```
 
 เรามาลอง start server ดูว่าหน้า index สามารถใช้งานได้ไหม
 
