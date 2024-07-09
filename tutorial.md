@@ -257,7 +257,7 @@ class Choice(models.Model):
 
 ## Activating models
 
-ก่อนอื่นเราจะต้องไปแก้ไขค่าตั้งค่าใน `polls/settings.py` เพื่อให้ Django รู้จักกับ app `polls` ที่เราสร้างขึ้นมาก่อน โดยเพิ่ม "polls" ใน INSTALLED_APPS
+ก่อนอื่นเราจะต้องไปแก้ไขค่าตั้งค่าใน `mysite/settings.py` เพื่อให้ Django รู้จักกับ app `polls` ที่เราสร้างขึ้นมาก่อน โดยเพิ่ม "polls" ใน INSTALLED_APPS
 
 ```python
 INSTALLED_APPS = [
@@ -421,13 +421,13 @@ What's new?
 <QuerySet [<Choice: Yes>, <Choice: No>, <Choice: OK>]>
 
 >>> Choice.objects.filter(question_id=1, choice_text="Yes")
-<QuerySet [<Choice: Yes>, <Choice: No>, <Choice: OK>]>
+<QuerySet [<Choice: Yes>]>
 
 >>> Question.objects.first()
 <Question: What is up?>
 
 >>> Question.objects.last()
-<Question: What is up?>
+<Question: Hello world?>
 ```
 
 เราจะมาสร้าง view กันต่อ ตามขั้นตอนในไฟล์ `tutorial-view.md`
