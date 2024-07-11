@@ -168,7 +168,3 @@ def detail(request, question_id):
 # the 'name' value as called by the {% url %} template tag
 path("<int:question_id>/", views.detail, name="detail"),
 ```
-
-### การให้คะแนน
-- ทำตามไฟล์ tutorial.md ครบถ้วน (1 คะแนน)
-- ทำตามไฟล์ tutorial-view.md ครบถ้วน (1 คะแนน)
