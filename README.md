@@ -63,4 +63,16 @@ Python 3.9.13
 4.2.13
 ```
 
+6. Add `path` to `psql` ใน Windows environment variables
+
+6.1 ไปที่ folder ที่มีไฟล์ `pgAdmin4.exe`
+
+6.2 Copy path ที่อยู่ของไฟล์ `psql.exe` เพื่อนำไป add ใน `path`
+
+6.3 เพิ่ม `path` to `psql` ใน Windows environment variables
+
+![Screenshot 2025-07-07 153642](https://github.com/user-attachments/assets/0dd77e8b-8e9e-46a3-a471-0fc614aa0646)
+
+7. 
+
 เราจะมาสร้าง project Django กันต่อ ตามขั้นตอนในไฟล์ `tutorial.md`
