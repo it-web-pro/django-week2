@@ -108,8 +108,6 @@ TEMPLATE_DIRS = (
 
 เปิด browser และพิมพ์ url `http://127.0.0.1:8000/polls/`
 
-![index](./images/index.png)
-
 ## Raising a 404 error
 
 ```python
