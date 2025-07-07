@@ -73,6 +73,6 @@ Python 3.9.13
 
 ![Screenshot 2025-07-07 153642](https://github.com/user-attachments/assets/0dd77e8b-8e9e-46a3-a471-0fc614aa0646)
 
-7. 
+___________
 
 เราจะมาสร้าง project Django กันต่อ ตามขั้นตอนในไฟล์ `tutorial.md`
